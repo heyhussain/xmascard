@@ -1,0 +1,87 @@
+{
+  "@id" : "https://heyhussain.github.io/xmascard/manifests/xmascard.json",
+  "@type" : "sc:Manifest",
+  "label" : "A Happy New Year to You",
+  "metadata" : [ {
+    "label" : "Title",
+    "value" : "A Happy New Year to You"
+  }, {
+    "label" : "Object Type",
+    "value" : "Christmas card"
+  }, {
+    "label" : "Brief Description",
+    "value" : "Anonymous. One of a large collection of Christmas and New Year's cards, British, c.1870s"
+  }, {
+    "label" : "Materials and Techniques",
+    "value" : "Chromolithography with cut paper work and embossed borders"
+  }, {
+    "label" : "Place",
+    "value" : "Britain (made)"
+  }, {
+    "label" : "Accession Number",
+    "value" : "E.2029-1953"
+  }, {
+    "label" : "Rights Statement",
+    "value" : "Image and metadata usage subject to V&A <a href=\"https://www.vam.ac.uk/info/va-websites-terms-conditions\">Terms and Conditions</a>"
+  }, {
+    "label" : "Manifest",
+    "value" : "https://iiif.vam.ac.uk/collections/O89587/manifest.json"
+  } ],
+  "description" : "Anonymous. One of a large collection of Christmas and New Year's cards, British, c.1870s",
+  "attribution" : "©Victoria and Albert Museum, London",
+  "license" : "https://www.vam.ac.uk/info/va-websites-terms-conditions",
+  "logo" : "https://framemark.vam.ac.uk/logos/valogo_social_2021/full/200,200/0/default.jpg",
+  "viewingDirection" : "left-to-right",
+  "viewingHint" : "individuals",
+  "sequences" : [ {
+    "@id" : "https://iiif.vam.ac.uk/collections/O89587/sequence/normal",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://iiif.vam.ac.uk/collections/O89587/canvas/c0",
+      "@type" : "sc:Canvas",
+      "label" : "Image 0",
+      "thumbnail" : "https://framemark.vam.ac.uk/collections/2006AG2301/full/!100,100/0/default.jpg",
+      "height" : 2500,
+      "width" : 1766,
+      "images" : [ {
+        "@id" : "https://framemark.vam.ac.uk/collections/2009BX5336",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://framemark.vam.ac.uk/collections/2023NL7222/full/312,232/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://framemark.vam.ac.uk/collections/2009BX5336",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1859,
+          "width" : 2500
+        },
+        "on" : "https://iiif.vam.ac.uk/collections/O89587/canvas/c0#xywh=100,100,600,400"
+      }, {
+        "@id" : "https://iiif.vam.ac.uk/collections/O89587/canvas/c0/annotation/a0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://framemark.vam.ac.uk/collections/2006AG2301/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 2500,
+          "width" : 1766,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://framemark.vam.ac.uk/collections/2006AG2301",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://iiif.vam.ac.uk/collections/O89587/canvas/c0"
+      } ]
+    } ]
+  } ],
+  "related" : {
+    "@id" : "http://collections.vam.ac.uk/item/O89587",
+    "@format" : "text/html"
+  }
+}
